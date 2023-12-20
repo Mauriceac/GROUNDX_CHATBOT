@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GroundX Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>RAG ChatBot</h2>
+    <h3><em>powered by GroundX + ChatGPT 3.5</em></h3>
+    <div id="main-container">
+        <div id="left-column">
+            <div id="buckets">
+                <h5>Select a bucket to search through: </h5>
+                <select id="bucket-select"></select>
+            </div>
+            <div id="documents">
+                <h5>Files contained in bucket:</h5>
+            </div>
+        </div>
+        <div id="right-column">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter your query">
+                <button id="search-button" type="submit">Search</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
