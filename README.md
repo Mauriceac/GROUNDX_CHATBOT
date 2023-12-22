@@ -1,13 +1,13 @@
-# RAG ChatBot powered by GroundX and ChatGPT
+# Node.js RAG ChatBot powered by GroundX and ChatGPT
 
 ## Introduction
-This is a simple chatbot intented for tutorial purposes. This chatbot uses the Retrieval Augmented Generation (RAG) methodology to generate responses based on your ingested data. We use GroundX to search through ingested data and then pass on the query results to ChatGPT to generate a response. 
+This is a simple chatbot intended for tutorial purposes. This chatbot, built with Node.js, uses the Retrieval Augmented Generation (RAG) methodology to generate responses based on your ingested data. We use GroundX to search through ingested data and then pass on the query results to ChatGPT to generate a response. 
 
 The significance of using GroundX lies in its data ingestion process and its search and retrieval capabilities.
 
-Through its ingestion process, GroundX extracts data from a wide variety of content and recognizes all sorts of document structures such as tables or pages numbers, it generates document and section summaries to preserve the context of your content, and can add custom data to help maintain the context of your content, improve search results, or even special notes or tags that can indicate how to handle the content.
+Through its ingestion process, GroundX extracts data from a wide variety of content and recognizes all sorts of document structures such as tables or page numbers, it generates document and section summaries to preserve the context of your content and can add custom data to help maintain the context of your content, improve search results, or even special notes or tags that can indicate how to handle the content.
 
-GroundX conducts a semantic search on the ingested data and its extra search data, outperforming mainstream vectorized searches. The search API retrieves intelligible text chunks that are then rewritten by GroundX's internal LLM to generate a more natural response that includes context and extra search data. GroundX combines these automatically generated texts into a single element in the search response so that it can be easily passed on to the LLM of your choice.
+GroundX conducts a semantic search on the ingested data and its extra search data, outperforming mainstream vectorized searches. The search API retrieves intelligible text chunks that are then rewritten by GroundX's internal LLM to generate a more natural response that includes document context and extra search data. GroundX combines these automatically generated texts into a single element in the search response so that it can be easily passed on to the LLM of your choice.
 
 ## Installation
 1. Copy the repository into your local machine.
