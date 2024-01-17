@@ -9,13 +9,19 @@ Through its ingestion process, GroundX extracts data from a wide variety of cont
 
 GroundX conducts a semantic search on the ingested data and its extra search data, outperforming mainstream vectorized searches. The search API retrieves intelligible text chunks that are then rewritten by GroundX's internal LLM to generate a more natural response that includes document context and extra search data. GroundX combines these automatically generated texts into a single element in the search response so that it can be easily passed on to the LLM of your choice.
 
+## Pre-requisites
+- [Node.js](https://nodejs.org/en/download/)
+- [GroundX API key](https://documentation.groundx.ai/docs/quick-start)
+- [OpenAI API key](https://platform.openai.com/docs/quickstart)
+
+
 ## Installation
 1. Copy the repository into your local machine.
 2. From your terminal, install the required Node.js packages by running:
    ```bash
    npm install
    ```
-3. Create a .env file in the root directory of the project and add the following:
+3. Create a `.env` file in the root directory of the project and add the following:
    ```
     GROUNDX_API_KEY=<your_groundx_api_key>
     OPENAI_API_KEY=<your_openai_api_key>
